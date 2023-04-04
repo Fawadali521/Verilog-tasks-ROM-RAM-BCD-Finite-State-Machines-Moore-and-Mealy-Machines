@@ -1,0 +1,63 @@
+
+The purpose of this FLI test example is to illustrate traversal of the
+design hierarchy, creation of a simple gate function, creation and
+sensitization of a process, and loading of multiple foreign shared libraries.
+
+The files are organized as follows:
+
+dumpdes.c           FLI code that prints the signal hierarchy of the design.
+
+dumpdes.exports     An export file to export symbols from dumpdes.c for the
+                    IBM platform.
+
+foreign.vhd         The VHDL code for the test.  The and_gate design unit
+                    runs the AND gate code from gates.c.  The dump_design
+                    design unit runs the hierarchy traversal code from
+                    dumpdes.c.  The monitor design unit runs the signal
+                    monitoring code from monitor.c.  The and4 design unit
+                    instantiates the foreign design units and uses a generate
+                    statement to send the individual bits of its bit_vector
+                    ports into multiple and_gate instances.  The testbench
+                    design unit instantiates and stimulates the and4 design
+                    unit.
+
+gates.c             FLI code that creates a process that performs the AND
+                    function, reading two specific signals and driving a third.
+
+gates.exports       An export file to export symbols from gates.c for the
+                    IBM platform.
+
+monitor.c           FLI code that creates a monitor process for every signal
+                    in the top region of the design.
+
+monitor.exports     An export file to export symbols from monitor.c for the
+                    IBM platform.
+
+runtest.aix         A script to run the test on the 32-bit IBM RS6000 platform.
+
+runtest.bat         A script to run the test in a DOS shell on the Windows
+                    platform.
+
+runtest.hp64        A script to run the test on the 64-bit HP-UX platform.
+
+runtest.hpu         A script to run the test on the 32-bit HP-UX platform.
+
+runtest.lnx         A script to run the test on the 32-bit Linux platform.
+
+runtest.rs64        A script to run the test on the 64-bit IBM RS6000 platform.
+
+runtest.ss5         A script to run the test on the 32-bit Sun Solaris platform.
+
+runtest.ss5v9       A script to run the test on the 64-bit Sun Solaris platform.
+
+runtest.win         A script to run the test in an MKS shell on the Windows
+                    platform.
+
+runtest_win.do      A do file to run the test from a ModelSim command line
+                    on the Windows platform.
+
+vsim.do             A vsim dofile to run the simulation and display results.
+
+NOTE: Each runtest script should be edited to run the appropriate
+      compiler and linker for your system and to point to your
+      modeltech installation for the include files.

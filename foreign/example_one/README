@@ -1,0 +1,46 @@
+
+The purpose of this FLI test example is to illustrate how to create processes
+and sensitize them to signals and how to read and drive signals from these
+processes.
+
+The files are organized as follows:
+
+example1.c          The FLI code for the example.
+
+example1.exports    An export file to export symbols for the IBM platform.
+
+example1.vhd        The VHDL code for the test.  The lower level design unit
+                    consists of a foreign architecture that loads the C
+                    code in example1.c and a VHDL architecture that has the
+                    same functionality as the foreign code.  The upper level
+                    design unit is a testbench that sends the same data to
+                    both lower level architectures and compares the outputs.
+
+runtest.aix         A script to run the test on the 32-bit IBM RS6000 platform.
+
+runtest.bat         A script to run the test in a DOS shell on the Windows
+                    platform.
+
+runtest.hp64        A script to run the test on the 64-bit HP-UX platform.
+
+runtest.hpu         A script to run the test on the 32-bit HP-UX platform.
+
+runtest.lnx         A script to run the test on the 32-bit Linux platform.
+
+runtest.rs64        A script to run the test on the 64-bit IBM RS6000 platform.
+
+runtest.ss5         A script to run the test on the 32-bit Sun Solaris platform.
+
+runtest.ss5v9       A script to run the test on the 64-bit Sun Solaris platform.
+
+runtest.win         A script to run the test in an MKS shell on the Windows
+                    platform.
+
+runtest_win.do      A do file to run the test from a ModelSim command line
+                    on the Windows platform.
+
+vsim.do             A vsim dofile to run the simulation and display results.
+
+NOTE: Each runtest script should be edited to run the appropriate
+      compiler and linker for your system and to point to your
+      modeltech installation for the include files.

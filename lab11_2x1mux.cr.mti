@@ -1,0 +1,22 @@
+C:/Modeltech_5.7f/examples/2x1A.v {1 {vlog -work work C:/Modeltech_5.7f/examples/2x1A.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module mux2x1
+
+Top level modules:
+	mux2x1
+
+} {} {}} C:/Modeltech_5.7f/examples/2x1B.v {1 {vlog -work work C:/Modeltech_5.7f/examples/2x1B.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} C:/Modeltech_5.7f/examples/hell.v {1 {vlog -work work C:/Modeltech_5.7f/examples/hell.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module part
+
+Top level modules:
+	part
+
+} {} {}}

@@ -1,0 +1,28 @@
+
+# Compilation and Execution Script for Linux
+
+# NOTE: The environment variable MTI_HOME must be set to point to your
+#       modeltech installation directory before invoking this script.
+#       Example: setenv MTI_HOME /usr/local/modeltech
+
+# GCC compilation (-g for debug symbols)
+gcc -c -g -I$MTI_HOME/include dumpdes.c
+ld -shared -E -o dumpdes.sl dumpdes.o
+gcc -c -g -I$MTI_HOME/include gates.c
+ld -shared -E -o gates.sl gates.o
+gcc -c -g -I$MTI_HOME/include monitor.c
+ld -shared -E -o monitor.sl monitor.o
+
+# CC compilation
+# cc -c -I$MTI_HOME/include dumpdes.c
+# ld -shared -E -o dumpdes.sl dumpdes.o
+# cc -c -I$MTI_HOME/include gates.c
+# ld -shared -E -o gates.sl gates.o
+# cc -c -I$MTI_HOME/include monitor.c
+# ld -shared -E -o monitor.sl monitor.o
+
+rm -rf work
+vlib work
+vcom foreign.vhd
+
+vsim testbench -do vsim.do

@@ -1,0 +1,5 @@
+xorg(only).p1 XOR
+org(only).p1 OR
+andg(only).p1 AND
+
+

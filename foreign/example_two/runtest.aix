@@ -1,0 +1,28 @@
+
+# Compilation and Execution Script for IBM RS6000
+
+# NOTE: The environment variable MTI_HOME must be set to point to your
+#       modeltech installation directory before invoking this script.
+#       Example: setenv MTI_HOME /usr/local/modeltech
+
+# CC compilation
+cc -c -I$MTI_HOME/include dumpdes.c
+ld -o dumpdes.sl dumpdes.o -bE:dumpdes.exports -bI:$MTI_HOME/rs6000/mti_exports -bM:SRE -bnoentry -lc
+cc -c -I$MTI_HOME/include gates.c
+ld -o gates.sl gates.o -bE:gates.exports -bI:$MTI_HOME/rs6000/mti_exports -bM:SRE -bnoentry -lc
+cc -c -I$MTI_HOME/include monitor.c
+ld -o monitor.sl monitor.o -bE:monitor.exports -bI:$MTI_HOME/rs6000/mti_exports -bM:SRE -bnoentry -lc
+
+# GCC compilation
+#gcc -c -I$MTI_HOME/include dumpdes.c
+#ld -o dumpdes.sl dumpdes.o -bE:dumpdes.exports -bI:$MTI_HOME/rs6000/mti_exports  -bM:SRE -bnoentry -lc
+#gcc -c -I$MTI_HOME/include gates.c
+#ld -o gates.sl gates.o -bE:gates.exports -bI:$MTI_HOME/rs6000/mti_exports  -bM:SRE -bnoentry -lc
+#gcc -c -I$MTI_HOME/include monitor.c
+#ld -o monitor.sl monitor.o -bE:monitor.exports -bI:$MTI_HOME/rs6000/mti_exports  -bM:SRE -bnoentry -lc
+
+rm -rf work
+vlib work
+vcom foreign.vhd
+
+vsim testbench -do vsim.do

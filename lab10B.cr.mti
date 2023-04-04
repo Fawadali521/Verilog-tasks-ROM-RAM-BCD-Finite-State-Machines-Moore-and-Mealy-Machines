@@ -1,0 +1,15 @@
+C:/Modeltech_5.7f/examples/task2B.v {1 {vlog -work work C:/Modeltech_5.7f/examples/task2B.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module mux4x1
+
+Top level modules:
+	mux4x1
+
+} {} {}} C:/Modeltech_5.7f/examples/task2A.v {1 {vlog -work work C:/Modeltech_5.7f/examples/task2A.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module stim5
+
+Top level modules:
+	stim5
+
+} {} {}}

@@ -1,0 +1,85 @@
+C:/Modeltech_5.7f/examples/three_BCD_test_1845.v {1 {vlog -work work C:/Modeltech_5.7f/examples/three_BCD_test_1845.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module three_BCD_test
+
+Top level modules:
+	three_BCD_test
+
+} {} {}} C:/Modeltech_5.7f/examples/counter.v {1 {vlog -work work C:/Modeltech_5.7f/examples/counter.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module counter_up
+
+Top level modules:
+	counter_up
+
+} {} {}} C:/Modeltech_5.7f/examples/BCD.v {1 {vlog -work work C:/Modeltech_5.7f/examples/BCD.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module bcd
+
+Top level modules:
+	bcd
+
+} {} {}} C:/Modeltech_5.7f/examples/stimulas_bcd.v {1 {vlog -work work C:/Modeltech_5.7f/examples/stimulas_bcd.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module stimulusbcd
+
+Top level modules:
+	stimulusbcd
+
+} {} {}} C:/Modeltech_5.7f/examples/top_counter.v {1 {vlog -work work C:/Modeltech_5.7f/examples/top_counter.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module top_counter
+
+Top level modules:
+	top_counter
+
+} {} {}} C:/Modeltech_5.7f/examples/Counter_lab06.v {1 {vlog -work work C:/Modeltech_5.7f/examples/Counter_lab06.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module counter9
+
+Top level modules:
+	counter9
+
+} {} {}} C:/Modeltech_5.7f/examples/BCD_lab06.v {1 {vlog -work work C:/Modeltech_5.7f/examples/BCD_lab06.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module BCDs
+
+Top level modules:
+	BCDs
+
+} {} {}} C:/Modeltech_5.7f/examples/BCD_test.v {1 {vlog -work work C:/Modeltech_5.7f/examples/BCD_test.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module bcd_test
+
+Top level modules:
+	bcd_test
+
+} {} {}} C:/Modeltech_5.7f/examples/three_BCD_1845.v {1 {vlog -work work C:/Modeltech_5.7f/examples/three_BCD_1845.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module three_BCD
+
+Top level modules:
+	three_BCD
+
+} {} {}} C:/Modeltech_5.7f/examples/BCD_1845.v {1 {vlog -work work C:/Modeltech_5.7f/examples/BCD_1845.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module BCD
+
+Top level modules:
+	BCD
+
+} {} {}} C:/Modeltech_5.7f/examples/top_level_1845.v {1 {vlog -work work C:/Modeltech_5.7f/examples/top_level_1845.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module top_level
+
+Top level modules:
+	top_level
+
+} {} {}} C:/Modeltech_5.7f/examples/stimulus.v {1 {vlog -work work C:/Modeltech_5.7f/examples/stimulus.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module stimulus
+
+Top level modules:
+	stimulus
+
+} {} {}}

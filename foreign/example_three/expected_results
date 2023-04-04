@@ -1,0 +1,32 @@
+# vsim -do vsim.do testbed 
+# Loading /home/endtable/debid/dev/modeltech/sunos5/../std.standard
+# Loading /home/endtable/debid/dev/modeltech/sunos5/../ieee.std_logic_1164(body)
+# Loading work.testbed(test_xcvr)
+# Loading work.transceiver(behavior)
+# Loading work.tester(test_fixture)
+# Loading ./tester.sl
+# do vsim.do 
+# .structure
+# .signals
+# TIME 0: drive signal portoe with value 0
+# TIME 0: drive signal portdir with value 1
+# TIME 0: drive signal array porta with value 10110110
+# TIME 0: drive signal array portb with value ZZZZZZZZ
+# TIME 20: test signal portb for value 10110110
+# TIME 100: drive signal portoe with value 1
+# TIME 100: drive signal array porta with value ZZZZZZZZ
+# TIME 120: test signal portoe for value 1
+# TIME 120: test signal portdir for value 1
+# TIME 120: test signal porta for value ZZZZZZZZ
+# TIME 120: test signal portb for value ZZZZZZZZ
+# TIME 200: drive signal portoe with value 0
+# TIME 200: drive signal array porta with value 11111111
+# TIME 220: test signal portb for value 11111111
+# TIME 300: drive signal array porta with value 00000000
+# TIME 320: test signal portb for value 00010000
+# Miscompare at time 320, signal portb. Expected "00010000", Actual "00000000"
+# TIME 400: drive signal portdir with value 0
+# TIME 400: drive signal array porta with value ZZZZZZZZ
+# TIME 400: drive signal array portb with value 01010101
+# TIME 420: test signal porta for value 01010101
+quit -f

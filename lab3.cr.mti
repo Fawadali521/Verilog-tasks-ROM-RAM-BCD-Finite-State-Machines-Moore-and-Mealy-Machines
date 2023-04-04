@@ -1,0 +1,71 @@
+C:/Modeltech_5.7f/examples/fa.v {1 {vlog -work work C:/Modeltech_5.7f/examples/fa.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module FA1
+
+Top level modules:
+	FA1
+
+} {} {}} C:/Modeltech_5.7f/examples/m21_test.v {1 {vlog -work work C:/Modeltech_5.7f/examples/m21_test.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module mux21_test
+
+Top level modules:
+	mux21_test
+
+} {} {}} C:/Modeltech_5.7f/examples/lab1_test.v {1 {vlog -work work C:/Modeltech_5.7f/examples/lab1_test.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} C:/Modeltech_5.7f/examples/lab_01.v {1 {vlog -work work C:/Modeltech_5.7f/examples/lab_01.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}} C:/Modeltech_5.7f/examples/test_led.v {1 {vlog -work work C:/Modeltech_5.7f/examples/test_led.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module test_led
+
+Top level modules:
+	test_led
+
+} {} {}} C:/Modeltech_5.7f/examples/m21.v {1 {vlog -work work C:/Modeltech_5.7f/examples/m21.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module mux21
+
+Top level modules:
+	mux21
+
+} {} {}} C:/Modeltech_5.7f/examples/led.v {1 {vlog -work work C:/Modeltech_5.7f/examples/led.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module led
+
+Top level modules:
+	led
+
+} {} {}} C:/Modeltech_5.7f/examples/te_rca.v {1 {vlog -work work C:/Modeltech_5.7f/examples/te_rca.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module test_RCA1
+
+Top level modules:
+	test_RCA1
+
+} {} {}} C:/Modeltech_5.7f/examples/rca.v {1 {vlog -work work C:/Modeltech_5.7f/examples/rca.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module RCA
+
+Top level modules:
+	RCA
+
+} {} {}} C:/Modeltech_5.7f/examples/mux8.v {1 {vlog -work work C:/Modeltech_5.7f/examples/mux8.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module Mulitplexer
+
+Top level modules:
+	Mulitplexer
+
+} {} {}}

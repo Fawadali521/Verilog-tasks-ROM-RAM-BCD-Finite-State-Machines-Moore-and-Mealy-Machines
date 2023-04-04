@@ -1,0 +1,15 @@
+C:/Modeltech_5.7f/examples/taskA.v {1 {vlog -work work C:/Modeltech_5.7f/examples/taskA.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module quiz
+
+Top level modules:
+	quiz
+
+} {} {}} C:/Modeltech_5.7f/examples/taskB.v {1 {vlog -work work C:/Modeltech_5.7f/examples/taskB.v
+Model Technology ModelSim SE vlog 5.7f Compiler 2003.09 Sep 15 2003
+-- Compiling module stim9
+
+Top level modules:
+	stim9
+
+} {} {}}

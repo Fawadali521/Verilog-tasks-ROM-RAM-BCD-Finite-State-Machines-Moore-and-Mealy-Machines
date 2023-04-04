@@ -1,0 +1,20 @@
+
+# Compilation and Execution Script for IBM RS6000 64BIT
+
+# NOTE: The environment variable MTI_HOME must be set to point to your
+#       modeltech installation directory before invoking this script.
+#       Example: setenv MTI_HOME /usr/local/modeltech
+
+# CC compilation
+cc -c -q64 -I$MTI_HOME/include dumpdes.c
+ld -o dumpdes.sl dumpdes.o -b64 -bE:dumpdes.exports -bI:$MTI_HOME/rs64/mti_exports -bM:SRE -bnoentry -lc
+cc -c -q64 -I$MTI_HOME/include gates.c
+ld -o gates.sl gates.o -b64 -bE:gates.exports -bI:$MTI_HOME/rs64/mti_exports -bM:SRE -bnoentry -lc
+cc -c -q64 -I$MTI_HOME/include monitor.c
+ld -o monitor.sl monitor.o -b64 -bE:monitor.exports -bI:$MTI_HOME/rs64/mti_exports -bM:SRE -bnoentry -lc
+
+rm -rf work
+vlib work
+vcom foreign.vhd
+
+vsim testbench -do vsim.do

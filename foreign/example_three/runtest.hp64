@@ -1,0 +1,17 @@
+
+# Compilation and Execution Script for HP-UX 64-bit
+
+# NOTE: The environment variable MTI_HOME must be set to point to your
+#       modeltech installation directory before invoking this script.
+#       Example: setenv MTI_HOME /usr/local/modeltech
+
+cc -g -c +DD64 -I$MTI_HOME/include tester.c
+ld -b -o tester.sl tester.o -lc
+
+rm -rf work
+vlib work
+vcom xcvr.vhd
+vcom tester.vhd
+vcom test_circuit.vhd
+
+vsim testbed -do vsim.do

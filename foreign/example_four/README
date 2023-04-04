@@ -1,0 +1,44 @@
+
+The purpose of this FLI test example is to illustrate how to create and
+use foreign subprograms.
+
+The files are organized as follows:
+
+foreignsp.c         The FLI code for the foreign subprograms.
+
+foreignsp.exports   An export file to export symbols from foreignsp.c for
+                    the IBM platform.
+
+foreignsp.vhd       The VHDL code for the example.  The package contains the
+                    VHDL prototypes for the two subprograms.  The test
+                    architecture calls the foreign subprograms from within
+                    a VHDL process.
+
+runtest.aix         A script to run the test on the 32-bit IBM RS6000 platform.
+
+runtest.bat         A script to run the test in a DOS shell on the Windows
+                    platform.
+
+runtest.hp64        A script to run the test on the 64-bit HP-UX platform.
+
+runtest.hpu         A script to run the test on the 32-bit HP-UX platform.
+
+runtest.lnx         A script to run the test on the 32-bit Linux platform.
+
+runtest.rs64        A script to run the test on the 64-bit IBM RS6000 platform.
+
+runtest.ss5         A script to run the test on the 32-bit Sun Solaris platform.
+
+runtest.ss5v9       A script to run the test on the 64-bit Sun Solaris platform.
+
+runtest.win         A script to run the test in an MKS shell on the Windows
+                    platform.
+
+runtest_win.do      A do file to run the test from a ModelSim command line
+                    on the Windows platform.
+
+vsim.do             A vsim dofile to run the simulation and display results.
+
+NOTE: Each runtest script should be edited to run the appropriate
+      compiler and linker for your system and to point to your
+      modeltech installation for the include files.

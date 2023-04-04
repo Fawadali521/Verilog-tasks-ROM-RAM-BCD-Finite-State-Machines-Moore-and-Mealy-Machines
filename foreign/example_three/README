@@ -1,0 +1,53 @@
+
+The purpose of this FLI test example is to illustrate how to read a testvector
+file and use it to stimulate and test a design via FLI function calls.
+
+The files are organized as follows:
+
+expected_results    Test results that should be seen in the transcript
+                    after running vsim.
+
+runtest.aix         A script to run the test on the 32-bit IBM RS6000 platform.
+
+runtest.bat         A script to run the test in a DOS shell on the Windows
+                    platform.
+
+runtest.hp64        A script to run the test on the 64-bit HP-UX platform.
+
+runtest.hpu         A script to run the test on the 32-bit HP-UX platform.
+
+runtest.lnx         A script to run the test on the 32-bit Linux platform.
+
+runtest.rs64        A script to run the test on the 64-bit IBM RS6000 platform.
+
+runtest.ss5         A script to run the test on the 32-bit Sun Solaris platform.
+
+runtest.ss5v9       A script to run the test on the 64-bit Sun Solaris platform.
+
+runtest.win         A script to run the test in an MKS shell on the Windows
+                    platform.
+
+runtest_win.do      A do file to run the test from a ModelSim command line
+                    on the Windows platform.
+
+test_circuit.vhd    The VHDL testbed for testing a bidirectional transceiver.
+
+tester.c            FLI code that reads a stimulus/response test vector file
+                    and stimulates and tests the design attached to the ports
+                    of its foreign architecture.
+
+tester.exports      An export file to export symbols from tester.c for the
+                    IBM platform.
+
+tester.vhd          The VHDL foreign architecture for the tester implemented
+                    in tester.c.
+
+vectors             Test vectors for testing a bidirectional transceiver.
+
+vsim.do             A vsim dofile to run the simulation and display results.
+
+xcvr.vhd            A VHDL model of a transceiver.
+
+NOTE: Each runtest script should be edited to run the appropriate
+      compiler and linker for your system and to point to your
+      modeltech installation for the include files.

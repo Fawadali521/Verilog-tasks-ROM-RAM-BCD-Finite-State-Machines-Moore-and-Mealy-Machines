@@ -1,0 +1,30 @@
+
+# Compilation and Execution Script for HP-UX
+
+# NOTE: The environment variable MTI_HOME must be set to point to your
+#       modeltech installation directory before invoking this script.
+#       Example: setenv MTI_HOME /usr/local/modeltech
+
+# CC compilation   HP-UX 10.20
+# cc -c +z -I$MTI_HOME/include tester.c
+# ld -b -o tester.sl tester.o -lc
+
+# GCC compilation  HP-UX 10.20
+# gcc -c -fpic -I$MTI_HOME/include tester.c
+# ld -b -o tester.sl tester.o -lc
+
+# CC compilation   HP-UX 11.0
+cc -c +z +DD32 -I$MTI_HOME/include tester.c
+ld -b -o tester.sl tester.o
+
+# GCC compilation  HP-UX 11.0
+# gcc -c -fpic -I$MTI_HOME/include tester.c
+# ld -b -o tester.sl tester.o
+
+rm -rf work
+vlib work
+vcom xcvr.vhd
+vcom tester.vhd
+vcom test_circuit.vhd
+
+vsim testbed -do vsim.do

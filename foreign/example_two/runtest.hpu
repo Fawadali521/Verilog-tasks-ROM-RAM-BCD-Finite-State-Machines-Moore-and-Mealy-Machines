@@ -1,0 +1,44 @@
+
+# Compilation and Execution Script for HP-UX
+
+# NOTE: The environment variable MTI_HOME must be set to point to your
+#       modeltech installation directory before invoking this script.
+#       Example: setenv MTI_HOME /usr/local/modeltech
+
+# CC compilation   HP-UX 10.20
+# cc -c +z -I$MTI_HOME/include dumpdes.c
+# ld -b -o dumpdes.sl dumpdes.o -lc
+# cc -c +z -I$MTI_HOME/include gates.c
+# ld -b -o gates.sl gates.o -lc
+# cc -c +z -I$MTI_HOME/include monitor.c
+# ld -b -o monitor.sl monitor.o -lc
+
+# GCC compilation  HP-UX 10.20
+# gcc -c -fpic -I$MTI_HOME/include dumpdes.c
+# ld -b -o dumpdes.sl dumpdes.o -lc
+# gcc -c -fpic -I$MTI_HOME/include gates.c
+# ld -b -o gates.sl gates.o -lc
+# gcc -c -fpic -I$MTI_HOME/include monitor.c
+# ld -b -o monitor.sl monitor.o -lc
+
+# CC compilation   HP-UX 11.0
+cc -c +z +DD32 -I$MTI_HOME/include dumpdes.c
+ld -b -o dumpdes.sl dumpdes.o
+cc -c +z +DD32 -I$MTI_HOME/include gates.c
+ld -b -o gates.sl gates.o
+cc -c +z +DD32 -I$MTI_HOME/include monitor.c
+ld -b -o monitor.sl monitor.o
+
+# GCC compilation  HP-UX 11.0
+# gcc -c -fpic -I$MTI_HOME/include dumpdes.c
+# ld -b -o dumpdes.sl dumpdes.o
+# gcc -c -fpic -I$MTI_HOME/include gates.c
+# ld -b -o gates.sl gates.o
+# gcc -c -fpic -I$MTI_HOME/include monitor.c
+# ld -b -o monitor.sl monitor.o
+
+rm -rf work
+vlib work
+vcom foreign.vhd
+
+vsim testbench -do vsim.do

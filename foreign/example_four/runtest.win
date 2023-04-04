@@ -1,0 +1,17 @@
+
+# Compilation and Execution Script for Microsoft Windows Platforms
+
+# NOTE: The environment variable MTI_HOME must be set to point to your
+#       modeltech installation directory before invoking this script.
+
+# NOTE: This script is intended to be run in an MKS shell.
+
+# Visual C/C++ compilation
+cl -c -I$MTI_HOME/include foreignsp.c
+link -dll -export:in_params -export:out_params -export:incrInteger -export:incrReal -export:incrTime foreignsp.obj $MTI_HOME/win32/mtipli.lib /out:foreignsp.sl
+
+rm -rf work
+vlib work
+vcom foreignsp.vhd
+
+vsim test -do vsim.do

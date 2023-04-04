@@ -1,0 +1,21 @@
+
+# Compilation and Execution Script for Microsoft Windows Platforms
+
+# NOTE: The environment variable MTI_HOME must be set to point to your
+#       modeltech installation directory before invoking this script.
+
+# NOTE: This script is intended to be run in an MKS shell.
+
+# Visual C/C++ compilation
+cl -c -I$MTI_HOME/include dumpdes.c
+link -dll -export:dump_design_init dumpdes.obj $MTI_HOME/win32/mtipli.lib /out:dumpdes.sl
+cl -c -I$MTI_HOME/include gates.c
+link -dll -export:and_gate_init gates.obj $MTI_HOME/win32/mtipli.lib /out:gates.sl
+cl -c -I$MTI_HOME/include monitor.c
+link -dll -export:monitor_init monitor.obj $MTI_HOME/win32/mtipli.lib /out:monitor.sl
+
+rm -rf work
+vlib work
+vcom foreign.vhd
+
+vsim testbench -do vsim.do

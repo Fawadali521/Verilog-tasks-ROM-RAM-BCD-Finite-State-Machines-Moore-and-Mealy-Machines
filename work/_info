@@ -1,0 +1,915 @@
+m255
+cModel Technology
+dC:\Modeltech_5.7f\examples
+vadd
+I3]7B3S[KSU:0Y?Id7HlV@0
+V[jKSg9nHjVoKK]HQVd@N;3
+w1647150460
+FC:/Modeltech_5.7f/examples/addarB.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vadder
+I4F63z7UETE2CA0DJU68XN3
+VU?k7X1FzF8e^e7_JCVX1D1
+w1647149998
+FC:/Modeltech_5.7f/examples/addarA.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vBCD
+IARDN3<L028gC?<8@KUmBo2
+V_dR`H[4CMc8;?`Z9cUQlN3
+w1649933984
+FC:/Modeltech_5.7f/examples/BCD_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@b@c@d
+vbcd
+IlUieizSHJl1F7TQcS5YDf3
+V3ZAo=ad2lQF8e;SDO^35:0
+w1650104236
+FC:/Modeltech_5.7f/examples/BCD.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vbcd_test
+I^0oiXfFMHP;6M4abBiBZ63
+VW7LmQR]na[6zQO?9Am;k>2
+w1650104549
+FC:/Modeltech_5.7f/examples/BCD_test.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vBCDs
+I=NC4MUNY8@YQU@NoFGj523
+VoHNDElD0Tbh]Bn]DEc@592
+w1653715408
+FC:/Modeltech_5.7f/examples/BCD_lab06.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@b@c@ds
+vbuffer
+IPc5WzM;eS?Y1P[2Zaf@O`3
+V5eh=9PZd8=<SeNiK9kX:M1
+w1650907595
+FC:/Modeltech_5.7f/examples/lab_01.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vCombine
+I7E2AlRdbdW`mjXf1T?W231
+VzGiIH1RK<D@T^_UMRX?gC0
+w1650369112
+FC:/Modeltech_5.7f/examples/Combine_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@combine
+vCombine_test
+IAoFP6Z^b9hWbbn2Y6g`Ch3
+VdUmlT1JJ=<=j3XZn93j673
+w1650368961
+FC:/Modeltech_5.7f/examples/Top_test_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@combine_test
+vcounter9
+IR2bFD5G^E[5PLi@20MbOL1
+V8LOoiidg<LPH0K1B:5I;U3
+w1653714139
+FC:/Modeltech_5.7f/examples/Counter_lab06.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vcounter_up
+IY]]CVz^fg1N@V9kJi7;UD2
+V1<7jE8^HgdI5VST<UCkgj1
+w1653711999
+FC:/Modeltech_5.7f/examples/counter.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vD_FF
+IBLCE9?1Bz?AckE5<z<nkO1
+VoA7?97_PL7ic_UWaFCaS02
+w1654366516
+FC:/Modeltech_5.7f/examples/d_ff.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@d_@f@f
+vDec_24
+Ikc^HDS2fNlT`MK?@@nZWI3
+ViJa?a;@_:AFCONI4Rze:b1
+w1652976877
+FC:/Modeltech_5.7f/examples/ROM_32X8.v
+L0 18
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@dec_24
+vDec_4x16
+I1I5Hka]f6;b3GoG_9EnKk1
+VBCFJALg==4=<[G6fo18X_3
+w1650367735
+FC:/Modeltech_5.7f/examples/Dec_4x16_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@dec_4x16
+vDec_4x16_test
+I_MngnGD7Qf9I[7FITFc:M1
+VB^N8HK8zTOk]f>6oZ?OPB1
+w1650368312
+FC:/Modeltech_5.7f/examples/Top_test_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@dec_4x16_test
+vdecoder2x4
+IEf5dd4>InXb;:1V[O2GGA0
+VA8AH9;N1CzD_V2dCEMI6V1
+w1644317504
+FC:/Modeltech_5.7f/examples/taskA.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vDFF
+I;l]z69]I0cg_:Wn1Rl6b72
+V7ec_e@Y5=>:n1Eo4XMV723
+w1650367174
+FC:/Modeltech_5.7f/examples/DFF_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@d@f@f
+vFA1
+IZKUG5L4<PkInLJaW>^fm>1
+VH2_bbMdSH05hPeF_S_AeX3
+w1650626258
+FC:/Modeltech_5.7f/examples/fa.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@f@a1
+vJS_Counter
+IQe5o=BRCM>YnX:QzJPmmG1
+VzB7[A<<dLYbCHPn;Qm7FV2
+w1650365313
+FC:/Modeltech_5.7f/examples/Jonsan_counter_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@j@s_@counter
+vJS_counter
+IBnlo9UoJY?FZ10GdjLPL:2
+VzB7[A<<dLYbCHPn;Qm7FV2
+w1650367246
+FC:/Modeltech_5.7f/examples/Jonsan_counter_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@j@s_counter
+vled
+IknC2Sf3Be4l69UYIde4Di3
+VKYCNXl=4:n1ml7M=_nnz`2
+w1650105648
+FC:/Modeltech_5.7f/examples/led.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vlevel_to_pulse
+IjL5<;67lKk1N<T5hUj@hU2
+V<5>==OaBJTW3QkGAObzT]3
+w1654368576
+FC:/Modeltech_5.7f/examples/level_to_pulse.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vlight
+IK8I@a[KSLT:m1EGFQ@:DQ2
+VO;;Za3H:?Z6WQ74VUYmXX1
+w1655138945
+FC:/Modeltech_5.7f/examples/light.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vlight_switch
+IXWGQElWAE7D<JQ6em198@0
+VPMzE:7<@^E?7@WV<o6zmX3
+w1654368657
+FC:/Modeltech_5.7f/examples/light_switch.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vlight_test
+Ih=Nk<=_Eb5`:^2^52egn00
+VX7UZ1IGSV?g[R>h6<QS0`3
+w1655139271
+FC:/Modeltech_5.7f/examples/light_test.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vLOCK
+ILihbF@E<IXQ<a96<I]iYZ1
+Vj7bk8O``dd==XIK3P_JL^0
+w1656008168
+FC:/Modeltech_5.7f/examples/LOCK.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@l@o@c@k
+vLOCK_test
+IOS4z;Xn;Xb]dhmPUdRC[Z0
+VGnCHWX7@I:617gYK8;dW@1
+w1656008218
+FC:/Modeltech_5.7f/examples/LOCK_test.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@l@o@c@k_test
+vmoore_lock
+I7]US6m5Cf^VQAdVlz^I<k1
+V8HR8SaZAeVA1H1DBY@07H3
+w1656006746
+FC:/Modeltech_5.7f/examples/LOCK.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vMulitplexer
+IM7X>aTWi>c2Me7cgnX<UK3
+VIlKc=`>8YHC7>hCbCjE5]3
+w1650804352
+FC:/Modeltech_5.7f/examples/mux8.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@mulitplexer
+vmux2
+IMRoH[^S]ED[PNcB`ZfZ8g2
+V==a?h7N8AYB]Lk9aBOB0>2
+w1645438251
+FC:/Modeltech_5.7f/examples/2x1B.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vmux21
+IaG?UfCY:;iTQZgS4j8YDX2
+VfVzA2e@>63blSW9b`nOM71
+w1650107901
+FC:/Modeltech_5.7f/examples/m21.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vmux21_test
+I0ooFT`gdXjef5W29Rijh62
+VH1:acI4N9PCQZkH=>NnAG1
+w1650108384
+FC:/Modeltech_5.7f/examples/m21_test.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vmux2x1
+IRL00mFREP95Q0S2g[XYH:0
+V45B0Xh4A>jG7=]XZ7GVL21
+w1645438181
+FC:/Modeltech_5.7f/examples/2x1A.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vmux4
+I=`:hdA^EVddCe][g89[Aj0
+VN=>c;C^VZnaFN[_HX4iLh3
+w1645440799
+FC:/Modeltech_5.7f/examples/4x1muxB.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vmux4x1
+Ieng7I:BTjAK_f0^4<ZMd?0
+VNXohfn<V[i<;mKlTXmI2?0
+w1645439326
+FC:/Modeltech_5.7f/examples/4x1muxA.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vmux8x1
+IHl1SnQR2Bc12e7mTkKNN;0
+VB>leKFTTe71LDJ`iF[A]I2
+w1644991730
+FC:/Modeltech_5.7f/examples/taskA.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vparity_det
+I90io:NP2dk[a5XF>Ob@4S0
+VJgCWTzc[Hb9O_Lzm`PWDc0
+w1654447003
+FC:/Modeltech_5.7f/examples/parity_det.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vparity_det_1always
+IlMg<b0dX8RX[k6H>DYzKl1
+VnF4DMW_6cNUFh8fnIZOZL2
+w1654447407
+FC:/Modeltech_5.7f/examples/parity_det_rst.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vparity_det_mealy
+IzzmjL<8XBX0aYA7LidB9k3
+VaFSkVKDed4UjdJ]RdnSIY3
+w1654447683
+FC:/Modeltech_5.7f/examples/parity_mealy.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vparity_det_moore
+Ij2z_O>L=zDU]`1=E]TZdj0
+V@X3:JXNBmU9G]`:UhA`9<3
+w1654447758
+FC:/Modeltech_5.7f/examples/parity_moore.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vpart
+II@Nz4o?6Vn`HS0WV:3n1Z3
+VB=HW_N<0?JYU9]TIACj[?1
+w1649703245
+FC:/Modeltech_5.7f/examples/hell.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vpulse
+IN9ZZHQhhcWXJZk2=JQDIZ3
+VZ1<BIIfno<:k`F0Nff:TR1
+w1654368559
+FC:/Modeltech_5.7f/examples/stimulas_pulse.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vquiz
+IFnJ0;aDaa]za[BWMog=5Y3
+VBcT[HTC9ZLF^B<UDm7`VG0
+w1645437802
+FC:/Modeltech_5.7f/examples/taskA.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vrailway
+I[Ba6j`1NQ^EDfAA52bFN;3
+Vd9AWQ]17`zZeV]HDdeHAW0
+w1658944530
+FC:/Modeltech_5.7f/examples/railway.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vrailway_test
+I6a>]CV5YWMV>_?LLSLOLT2
+VoD8kWY?QDYTejQ6_h2`bH3
+w1658994636
+FC:/Modeltech_5.7f/examples/rail_test.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vRCA
+IfD>bIc7fP][D5hdQmE:Ul0
+V2b^J8943z^6N8B]Ti_O9L3
+w1650626273
+FC:/Modeltech_5.7f/examples/rca.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@r@c@a
+vring_counter
+INXaKaQ8GIJSf>Ja0UR=z33
+V]j5ICYQLfgNHR9hj06EiN0
+w1653154506
+FC:/Modeltech_5.7f/examples/ring_counter.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vROM1_8x8
+IYKd?8_a`2DD0=^YBOYYZJ3
+VS^T?K2I;;>=LjgEEGlPQ:0
+w1652976915
+FC:/Modeltech_5.7f/examples/ROM1.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@r@o@m1_8x8
+vROM2_8x8
+ISWcA2^j8:c9Hz[YEHX`?C1
+VB:oBoANKHeZ?OAB=5ndej1
+w1653019447
+FC:/Modeltech_5.7f/examples/ROM2.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@r@o@m2_8x8
+vROM3_8x8
+Ing:_KiBEH3TCfN`D`9MTc3
+V9^iOOABKX<eLnJH;zQ:Pg3
+w1652977025
+FC:/Modeltech_5.7f/examples/ROM3.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@r@o@m3_8x8
+vROM4_8x8
+I3E`og@Mme_lhCb:AlZI`n0
+VMK^F6iQg^g[60`T0?^O_42
+w1652977000
+FC:/Modeltech_5.7f/examples/ROM4.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@r@o@m4_8x8
+vROM_16x8
+I=zLXi3foOJ5Q@Q7gWALhg0
+V@Z_:H=PB3SGVC_WMaK:]:0
+w1653018801
+FC:/Modeltech_5.7f/examples/ROM_16X8.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@r@o@m_16x8
+vROM_32x8
+IV@LK5lg01I[Mb>PC=PlQ>0
+V?7;6j2@kc=TV:_W0Pm;A92
+w1652976877
+FC:/Modeltech_5.7f/examples/ROM_32X8.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@r@o@m_32x8
+vROM_v1
+Ia^G57hS@_GJI_AfMAXd9<0
+VI^lVAl?;f0<_3?43llkiO3
+w1652976622
+FC:/Modeltech_5.7f/examples/ROM_V1.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@r@o@m_v1
+vROM_v2
+INKT:LmRMRziRzM7S;DgaO1
+Vmc1Z7@lN=?oU]bHKgIb:Z1
+w1652976724
+FC:/Modeltech_5.7f/examples/ROM_V2.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@r@o@m_v2
+vst
+Ie]elz;@8Z@n9F8Dldkidg0
+VRC=ANmK:8zDG<P]VTH35e0
+w1644941278
+FC:/Modeltech_5.7f/examples/taskB.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vstim
+Ih;Iz^G[jG@lCY[z]0GjQl2
+VIj8aXeQG]]ko]Bbgna5FQ0
+w1644229648
+FC:/Modeltech_5.7f/examples/task2.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vstim1
+IbobTgL:eMo9OlaEk>J?UM0
+VN6HS]_HCU:IoR@`zmb5@<0
+w1644317580
+FC:/Modeltech_5.7f/examples/taskB.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vstim4
+Iock;:4NAV>oKo:QHGPEi]3
+Vm8YX12DSIRBOQldU1I:T50
+w1644831271
+FC:/Modeltech_5.7f/examples/task1B.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vstim5
+IGNGab91M3Q1lomiNS=:LL1
+VL_bCN>QDGS@fjDO25k8CN3
+w1644941175
+FC:/Modeltech_5.7f/examples/task2A.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vstim6
+I2OzT`LP5G[[GFMZ38:X?72
+V5177a=e_;=dJP_h`d^WY23
+w1644942193
+FC:/Modeltech_5.7f/examples/taskB.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vstim7
+I_YMfPgf8V36oobcmgW]WT0
+VIGPNMJf::oSFh9L=QlA^@2
+w1644942239
+FC:/Modeltech_5.7f/examples/taskB.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vstim8
+IG4DG_dzANI1D3o5EUZP_63
+VHKoWg;2AW=lCY0<5ZG9``1
+w1644991317
+FC:/Modeltech_5.7f/examples/taskB.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vstim9
+IA^b53^RWOBBc;zd@0Bc2]3
+VN48gno`Xm;DjCb2Sj4A473
+w1645437697
+FC:/Modeltech_5.7f/examples/taskB.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vstimulus
+I>eBBXZQi^S8Ldh:@6<ACM1
+V2RXlVH=lNbdgi`jmnoNh?3
+w1649947906
+FC:/Modeltech_5.7f/examples/stimulus.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vstimulusbcd
+IUFc=53NV=HDQCC06nMGoZ3
+Vd4WmP<G=ZOj<dkA=dQPA<3
+w1653713694
+FC:/Modeltech_5.7f/examples/stimulas_bcd.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vswith
+I:JJDGFKn6]NnFUG6Ohggc3
+VDZ[FM5oihFK?A9kZ>C7@f2
+w1654368706
+FC:/Modeltech_5.7f/examples/stimulas_pulse.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vsynchron
+IhONZ3>mn5En4?h8h^TAk62
+V01ROjCSjbfW^MF][[VHSB3
+w1654366479
+FC:/Modeltech_5.7f/examples/syin.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtest
+I=kC0c8Ua@4kYS2`>5k7UR2
+Vk<3<[f=78GX=_HO53D;7>3
+w1650907731
+FC:/Modeltech_5.7f/examples/lab1_test.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtest_led
+IY`28i2G=[Y^kgjPZ2L]6R2
+VU`fbnj8<NbEk=9038KME80
+w1650106754
+FC:/Modeltech_5.7f/examples/test_led.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtest_r
+IVZW08fj4Yz]:X4g5Z<Gdk1
+VRMHNH`Tz0`CU1ZbW;0Ohn3
+w1653154654
+FC:/Modeltech_5.7f/examples/stimulas_r.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtest_RCA1
+If?bATWoW_g7jO4T]i3L_H1
+V?B1Aj=a?VSmCcI64k_5`60
+w1650626295
+FC:/Modeltech_5.7f/examples/te_rca.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+ntest_@r@c@a1
+vthree_BCD
+I65R?KVo]^R@ffF=4h;9Jj3
+Vd5QQlU0[gMiLIYDY_44Y03
+w1649938142
+FC:/Modeltech_5.7f/examples/three_BCD_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+nthree_@b@c@d
+vthree_BCD_test
+I[;4Jlkg2`93GcDXP@@Dl>3
+VK<kddlCWDnD=2KNl[>LIX0
+w1649948064
+FC:/Modeltech_5.7f/examples/three_BCD_test_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+nthree_@b@c@d_test
+vtop_counter
+InG8LmWH<@YFSIn`SFe@=J1
+VN8RUh_]K>2C<cPY;dZ6O;1
+w1649947562
+FC:/Modeltech_5.7f/examples/top_counter.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vTop_de
+IbVMBOkO_l25g[Wc79Y@?31
+V`hFj8<=lG3]Mm74h9GP;f0
+w1650369167
+FC:/Modeltech_5.7f/examples/Top_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+n@top_de
+vtop_level
+I=_32X1H4?MBRO1ih`SFkL1
+Vf[;bP9MLLe[?SX7_4Ff5c0
+w1649934135
+FC:/Modeltech_5.7f/examples/top_level_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtop_rc
+I^U[l>]7RkR=V;^X_a_CMM3
+Vc8k<SLTlW<]`2FS5E_S5l3
+w1653154771
+FC:/Modeltech_5.7f/examples/top_r.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtop_test
+ICY[V;?nJWzTUzXQ9H1LWo2
+VX[4k`AP5Z4?DVgPea0l1i1
+w1650366956
+FC:/Modeltech_5.7f/examples/Top_test_1845.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtst_mealy
+IoCz7^01Ei5iZ=0M0CPLmI2
+Vo_I33LEPdfjP3ILaSF:?41
+w1654447710
+FC:/Modeltech_5.7f/examples/parity_mealy_test.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtst_moore
+I7ACoToRV<TmbOi4dC5a>62
+V2D7`aBzmlD0A3DVb3m]O52
+w1654447740
+FC:/Modeltech_5.7f/examples/parity_moore_test.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtst_parity_det
+IF<QJW?NI7EUHFh7SX:Bf[0
+V_;N59]B?@GZiX985G5TX:2
+w1654447032
+FC:/Modeltech_5.7f/examples/parity_det-test.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtst_parity_rst
+I@ZG9dVGEMnVkkQ3Qb7_CQ1
+VoTVh>UOEDJ<a6eWV>]8B30
+w1654447447
+FC:/Modeltech_5.7f/examples/parity_test_rst.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+vtst_ROM_16x8
+IKRe6b11?jFX0U@CN:^jWk3
+VSoagA]=4Fj=5joNR=5O5R0
+w1653019014
+FC:/Modeltech_5.7f/examples/T_ROM_16X8.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+ntst_@r@o@m_16x8
+vtst_ROM_32x8
+I^DNhCESZ6;4H=ZgWT@V8Z1
+V;8i=km8z98LBYNmkI_<;Q3
+w1652977097
+FC:/Modeltech_5.7f/examples/T_ROM_32X8.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+ntst_@r@o@m_32x8
+vtst_ROM_v1
+ImVz`?0Dj9AaMLmCmnCReo2
+VS4>a8DLoTz`1ejZL=PMg[2
+w1652976671
+FC:/Modeltech_5.7f/examples/T_ROM_V1.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+ntst_@r@o@m_v1
+vtst_ROM_v2
+IIkJY]7;a0eSKS3>6J@=i?2
+Vd5NVDYQKH3:g8AFnPN7740
+w1652976778
+FC:/Modeltech_5.7f/examples/T_ROM_V2.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work
+ntst_@r@o@m_v2
+vwhole
+I[3zIB6^J]XWjN>zhdVo@d3
+VW=aQEM>jzRTo>P91MiIE60
+w1649703388
+FC:/Modeltech_5.7f/examples/wh.v
+L0 1
+OE;L;5.7f;17
+r1
+31
+o-work work

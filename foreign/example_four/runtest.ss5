@@ -1,0 +1,23 @@
+
+# Compilation and Execution Script for SUN Solaris
+
+# NOTE: The environment variable MTI_HOME must be set to point to your
+#       modeltech installation directory before invoking this script.
+#       Example: setenv MTI_HOME /usr/local/modeltech
+
+# NOTE: The symbol referencing errors are normal and are caused by using
+#       the -B symbolic option to ld.
+
+# CC compilation
+# cc -c -I$MTI_HOME/include foreignsp.c
+# ld -G -B symbolic -o foreignsp.sl foreignsp.o
+
+# GCC compilation
+gcc -c -I$MTI_HOME/include foreignsp.c
+ld -G -B symbolic -o foreignsp.sl foreignsp.o
+
+rm -rf work
+vlib work
+vcom foreignsp.vhd
+
+vsim test -do vsim.do
